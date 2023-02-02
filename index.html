@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GNCOSTYLE</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <script defer src="./js/main.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- ScrollTo -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header>
+      <div class="header-inner">
+        <div class="top-banner">
+          <div class="top-inner">
+            <p>지엔코스타일 카플 친추하고 <span>5,000원</span> 적립금 받자!</p>
+            <ul class="top-menu">
+              <li><a href="javascript:void(0)">로그인</a></li>
+              <li><a href="javascript:void(0)">회원가입</a></li>
+              <li><a href="javascript:void(0)">고객센터</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav>
+          <div class="gnb-inner">
+            <div class="logo">
+              <a href="/">
+                <img src="./img/h_logo.jpg" alt="HEADER LOGO" />
+              </a>
+            </div>
+            <div class="gnb-menu">
+              <li class="gnb-menu-item">
+                  <div class="gnb-menu-name">여성</div>
+                  <div class="gnb-menu-contents">
+                    <div class="contents-menu">
+                      <ul class="inner">
+                        <li>
+                          <h4>TOP</h4>
+                          <ul>
+                            <li>티셔츠</li>
+                            <li>블라우스/셔츠</li>
+                            <li>니트</li>
+                            <li>스웻셔츠</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>BOTTOM</h4>
+                          <ul>
+                            <li>스커트</li>
+                            <li>팬츠</li>
+                            <li>데님</li>
+                            <li>레깅스</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>ONE PIECE</h4>
+                          <ul>
+                            <li>원피스</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>OUTER</h4>
+                          <ul>
+                            <li>자켓</li>
+                            <li>점퍼</li>
+                            <li>코트</li>
+                            <li>패딩/다운</li>
+                            <li>가디건</li>
+                            <li>베스트</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>ACC</h4>
+                          <ul>
+                            <li>가방</li>
+                            <li>머플러</li>
+                            <li>모자</li>
+                            <li>장갑</li>
+                            <li>신발</li>
+                            <li>벨트</li>
+                            <li>양말</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>    
+                    </div>
+              </li>
+              <li class="gnb-menu-item">
+                  <div class="gnb-menu-name">남성</div>
+                  <div class="gnb-menu-contents">
+                    <div class="contents-menu">
+                      <ul class="inner">
+                        <li>
+                          <h4>TOP</h4>
+                          <ul>
+                            <li>티셔츠</li>
+                            <li>맨투맨</li>
+                            <li>니트</li>
+                            <li>스웻셔츠</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>BOTTOM</h4>
+                          <ul>
+                            <li>팬츠</li>
+                            <li>데님</li>
+                          </ul>
+                        </li>
+                        
+                        <li>
+                          <h4>OUTER</h4>
+                          <ul>
+                            <li>자켓</li>
+                            <li>점퍼</li>
+                            <li>코트</li>
+                            <li>패딩/다운</li>
+                            <li>가디건</li>
+                            <li>베스트</li>
+                            <LI>레더</LI>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>SUIT</h4>
+                          <ul>
+                            <li>자켓</li>
+                            <li>팬츠</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <h4>ACC</h4>
+                          <ul>
+                            <li>가방</li>
+                            <li>머플러</li>
+                            <li>모자</li>
+                            <li>장갑</li>
+                            <li>신발</li>
+                            <li>벨트</li>
+                            <li>양말</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>    
+                    </div>
+              </li>
+              <li class="gnb-menu-item">
+                  <div class="gnb-menu-name">라이프</div>
+                    <div class="gnb-menu-contents">
+                      <div class="contents-menu">
+                        <ul class="inner">
+                          <li>
+                            <h4>FRAGRANCE</h4>
+                            <ul>
+                              <li>디퓨저/향수</li>
+                              <li>핸드크림</li>
+                              <li>바디케어</li>
+                              <li>기프트</li>
+                            </ul>
+                          </li>
+                          <li>
+                            <h4>LIVING</h4>
+                            <ul>
+                              <li>리빙</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>    
+                    </div>
+                </li>
+            </div>
+            <div class="gnb-menu-right">
+              <ul>
+                <li><a href="javascript:void(0)">온라인 단독</a></li>
+                <li><a href="javascript:void(0)">베스트</a></li>
+                <li><a href="javascript:void(0)">기획전</a></li>
+                <li><a href="javascript:void(0)">아울렛</a></li>
+                <li><a href="javascript:void(0)">G-매거진</a></li>
+              </ul>
+            </div>
+            <div class="gnb-icons-wrap">
+              <ul>
+                <li class="search-starter"><a href="javascript:void(0)"><img src="./img/search-1.png" alt=""></a></li>
+                <li class="join"><a href="javascript:void(0)"><img src="./img/join-0.png" alt=""></a></li>
+                <li class="like"><a href="javascript:void(0)"><img src="./img/favorite.png" alt=""></a></li>
+                <li class="shopping"><a href="javascript:void(0)"><img src="./img/shopping_cart.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+        
+        <div class="search-wrap">
+          <div class="search">
+            <div class="shadow"></div>
+            <div class="textfield">
+              <input type="text" placeholder="검색어를 입력하세요." />
+              <div class="search-icon"></div>
+              <div class="search-closer"></div>
+            </div>
+            <div class="autocompletes">
+              <div class="search-last">
+                <h3>최근 검색어</h3>
+                <li>최근 검색어가 없습니다.</li>
+              </div>
+              <div class="search-best">
+                <h3>인기 검색어</h3>
+                  <ul>
+                    <li><a href="javascript:void(0)"><strong>1</strong>점퍼</a></li>
+                    <li><a href="javascript:void(0)"><strong>2</strong>코트</a></li>
+                    <li><a href="javascript:void(0)"><strong>3</strong>패딩</a></li>
+                    <li><a href="javascript:void(0)"><strong>4</strong>원피스</a></li>
+                    <li><a href="javascript:void(0)"><strong>5</strong>모자</a></li>
+                    <li><a href="javascript:void(0)"><strong>6</strong>아우터</a></li>
+                    <li><a href="javascript:void(0)"><strong>7</strong>니트</a></li>
+                    <li><a href="javascript:void(0)"><strong>8</strong>블라우스</a></li>
+                    <li><a href="javascript:void(0)"><strong>9</strong>장갑</a></li>
+                    <li><a href="javascript:void(0)"><strong>10</strong>가방</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+  
+    <!-- VISUAL -->
+    <section class="visual">
+      <div class="swiper visual-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <img src="./img/slide-1.jpg" alt="Bon Voyage bodyline">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <img src="./img/slide-2.jpg" alt="Gold Oppotunity">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <img src="./img/slide-3.jpg" alt="Short Padding">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <img src="./img/slide-4.jpg" alt="Cold Winter">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <img src="./img/slide-5.jpg" alt="Storyteller">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination visual-swiper-pagination"></div>
+        <div class="swiper-prev visual-btn-prev"></div>
+        <div class="swiper-next visual-btn-next"></div>
+      </div>
+    </section>
+
+    <!-- QUICK-MENU -->
+    <section class="quick-menu-wrap">
+      <div class="inner">
+        <ul class="quick-menu">
+          <li class="menu">
+            <img src="./img/quick-banner-1.png" alt="quick-menu" />
+            <span>원피스</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-2.png" alt="quick-menu" />
+            <span>FOR남성</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-3.png" alt="quick-menu" />
+            <span>베스트</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-4.png" alt="quick-menu" />
+            <span>신상품</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-5.png" alt="quick-menu" />
+            <span>핸드크림</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-6.png" alt="quick-menu" />
+            <span>코트</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-7.png" alt="quick-menu" />
+            <span>아우터</span>
+          </li>
+          <li class="menu">
+            <img src="./img/quick-banner-8.png" alt="quick-menu" />
+            <span>모자</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ISSUE -->
+    <section class="issue-wrap">
+      <div class="issue-inner inner">
+        <div class="title">
+          <span>ISSUE</span>
+        </div>
+        <div class="swiper issue-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="issue-slide">
+                <a href="javascript:void(0)">
+                  <img src="./img/issue-slide-1.jpg" alt="22fw campaign">
+                </a>
+                <h3>T.I FOR MEN</h3>
+                <h2>22FW CAMPAIGN</h2>
+                <span>#HOMELUDENS 공간과 사람 나아가 남자들의 라이프스타일을 트렌디하게 보여주고자 합니다.</span>
+              </div>
+              <div class="issue-slide">
+                <a href="javascript:void(0)">
+                  <img src="./img/issue-slide-2.jpg" alt="22fw campaign">
+                </a>
+                <h3>ETAPE</h3>
+                <h2>BON VOYAGE HAND CREAM</h2>
+                <span>일상으로 자연스레 젖어드는 에타페만의 감각적인 향기</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="issue-slide">
+                <a href="javascript:void(0)">
+                  <img src="./img/issue-slide-3.jpg" alt="22fw campaign">
+                </a>
+                <h3>COVETBLAN</h3>
+                <h2>Peaceful Moment</h2>
+                <span>활기차고 평온했던 그때로 돌아가고자하는 바람을 담아 편안하고 코지한 스타일의 리얼웨이룩을 제안합니다.</span>
+              </div>
+              <div class="issue-slide">
+                <a href="javascript:void(0)">
+                  <img src="./img/issue-slide-4.jpg" alt="22fw campaign">
+                </a>
+                <h3>Thursday Island</h3>
+                <h2>22FW CAMPAIGN</h2>
+                <span>Thursday Island X MISU A BARBE</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination issue-swiper-pagination"></div>
+          <div class="swiper-prev issue-btn-prev">
+            <div class="material-icons">navigate_before</div>
+          </div>
+          <div class="swiper-next isseu-btn-next">
+            <div class="material-icons">navigate_next</div>
+          </div>
+      </div>
+    </section>
+
+    <!-- NEW-ITEM -->
+    <section class="new-item-wrap">
+      <div class="new-item-inner inner">
+        <div class="title">
+          <span>NEW ITEM</span>
+        </div>
+        <div class="item-wrap">
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-1.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">경량 소재 롱 구스타운 JP</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">779,000</p>
+                  <p class="price">474,900</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-2.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">COVETBLAN</p>
+                  <p class="item-name">세미오버핏 롱 다운 점퍼</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">479,000</p>
+                  <p class="price">215,500</p>
+                  <p class="dc-rate">55%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-3.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">오버핏 롱 야상 다운</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">779,000</p>
+                  <p class="price">474,900</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-4.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">폭스 퍼 슬림 롱 다운</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">729,000</p>
+                  <p class="price">437,400</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-5.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">코듀로이 하프집업 맨투맨</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">219,000</p>
+                  <p class="price">175,200</p>
+                  <p class="dc-rate">20%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="item-wrap">
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-6.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">퍼 머플러</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">139,000</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-7.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">ETAPE</p>
+                  <p class="item-name">바디케어 플로우 세트</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">72,000</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-8.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">SOREN FLANNEL SHIRT</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">419,000</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-9.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">ETAPE</p>
+                  <p class="item-name">샤쉐 우드 소울 3ML</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">9,500</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="item">
+              <div class="item-thumb">
+                <img src="./img/new-all-10.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">덤블 카라 다운 점퍼</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">459,000</p>
+                  <p class="price">275,400</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gPick-wrap">
+      <div class="gPick-wrap-inner">
+        <div class="gPick">
+          <h4>온라인 주문하고 매장에서 수령하자!</h4>
+          <span>기다리지마! 지금 바로 픽, <strong>G-PICK</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEST-ITEM -->
+    <section class="best-item-wrap">
+      <div class="inner">
+        <div class="title">
+          <span>BEST-ITEM</span>
+        </div>
+        <div class="swiper biSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-1.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">Thursday Island</p>
+                    <p class="item-name">후디스 구스다운 푸퍼</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">459,000</p>
+                    <p class="price">321,300</p>
+                    <p class="dc-rate">30%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-2.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">COVETBLAN</p>
+                    <p class="item-name">빅카라 체크코트</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">379,000</p>
+                    <p class="price">265,300</p>
+                    <p class="dc-rate">30%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-3.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">T.I FOR MEN</p>
+                    <p class="item-name">경량 소재 롱 구스다운 JP</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">779,000</p>
+                    <p class="price">474,900</p>
+                    <p class="dc-rate">40%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-4.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">Thursday Island</p>
+                    <p class="item-name">오버핏 롱 야상 다운</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">779,000</p>
+                    <p class="price">474,900</p>
+                    <p class="dc-rate">40%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-5.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">ETAPE</p>
+                    <p class="item-name">핸드크림 브레스 50ML</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price"></p>
+                    <p class="price">23,000</p>
+                    <p class="dc-rate"></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-6.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">T.I FOR MEN</p>
+                    <p class="item-name">에어울 폴로니트</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">225,000</p>
+                    <p class="price">135,000</p>
+                    <p class="dc-rate">40%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-7.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">Thursday Island</p>
+                    <p class="item-name">발마칸 체크 코트</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">499,000</p>
+                    <p class="price">299,400</p>
+                    <p class="dc-rate">40%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-8.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">ETAPE</p>
+                    <p class="item-name">바디케어 플로우 세트</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price"></p>
+                    <p class="price">72,000</p>
+                    <p class="dc-rate"></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-9.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">Thursday Island</p>
+                    <p class="item-name">인조퍼 숏 자켓</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">419,000</p>
+                    <p class="price">293,300</p>
+                    <p class="dc-rate">30%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <div class="item-thumb">
+                  <img src="./img/best-item-10.jpg" alt="new-item" />
+                </div>
+                <div class="item-info">
+                  <div class="item-title">
+                    <p class="item-brand">T.I FOR MEN</p>
+                    <p class="item-name">에어울 폴로 스웨터</p>
+                  </div>
+                  <div class="item-price-info">
+                    <p class="item-price">419,000</p>
+                    <p class="price">293,300</p>
+                    <p class="dc-rate">30%</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+          </div>
+          <div class="swiper-button-next best-bnt-next">
+            <img src="./img/best-item-btn-next.png" alt="btn-next">
+          </div>
+          <div class="swiper-button-prev best-btn-prev">
+            <img src="./img/best-item-btn-next.png" alt="btn-prev" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT -->
+    <section class="event-wrap">
+      <div class="event-inner inner">
+        <div class="title">
+          <span>기획전</span>
+          <img src="./img/event-more.png" alt="event-more-btn" class="event-more">
+        </div>
+        <div class="swiper eventSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/event-1.jpg" alt="event-slide-img" />
+              <div class="event-info">
+                <div class="brand">
+                  <span>T.I FOR MEN</span>
+                </div>
+                <div class="event-name">
+                  <span>WINTER OUTER FESTIVAL</span>
+                </div>
+                <a href="javascript:void(0)" class="event-btn">자세히 보기</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/event-2.jpg" alt="event-slide-img" />
+              <div class="event-info">
+                <div class="brand">
+                  <span>ETAPE</span>
+                </div>
+                <div class="event-name">
+                  <span>FLOW BODY LOTION</span>
+                </div>
+                <a href="javascript:void(0)" class="event-btn">자세히 보기</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/event-3.jpg" alt="event-slide-img" />
+              <div class="event-info">
+                <div class="brand">
+                  <span>THURSDAI ISLAND</span>
+                </div>
+                <div class="event-name">
+                  <span>T.I X MISU A BARBE</span>
+                </div>
+                <a href="javascript:void(0)" class="event-btn">자세히 보기</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/event-4.jpg" alt="event-slide-img" />
+              <div class="event-info">
+                <div class="brand">
+                  <span>ETAPE</span>
+                </div>
+                <div class="event-name">
+                  <span>GOLDEN APPORTUNITY</span>
+                </div>
+                <a href="javascript:void(0)" class="event-btn">자세히 보기</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/event-5.jpg" alt="event-slide-img" />
+              <div class="event-info">
+                <div class="brand">
+                  <span>COVETBLAN</span>
+                </div>
+                <div class="event-name">
+                  <span>WINTER OUTER FESTIVAL</span>
+                </div>
+                <a href="javascript:void(0)" class="event-btn">자세히 보기</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next event-bnt-next">
+            <div class="material-icons">arrow_forward_ios</div>
+          </div>
+          <div class="swiper-button-prev event-btn-prev">
+            <div class="material-icons">arrow_forward_ios</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  <!-- BRAND-ISSUE -->
+  <section class="brand-issue-wrap">
+    <div class="brand-issue-inner inner">
+      <div class="title">
+        <span>BRAND ISSUE</span>
+      </div>
+      <div class="brand-issue-item-wrap">
+        <div class="brand-issue-item">
+          <div class="brand-issue-info">
+            <h4 class="brand-issue-brand">T.I FOR MEN</h4>
+            <h3 class="brand-issue-name">WINTER OUTER SHOP</h3>
+            <span class="brand-issue-description">22F/W OUTER UP TO 30%</span>
+          </div>
+          <div class="brand-issue-thum-l">
+            <a href="javascript:void(0)"><img src="./img/brand-issue-1.jpg" alt="brand issue thumnail" /></a>
+          </div>
+          <div class="brand-issue-thum-s">
+            <ul class="brand-issue-thum-s-item-wrap">
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-1-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-1-sub2.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-1-sub3.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-1-sub4.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-1-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="brand-issue-item">
+          <div class="brand-issue-info">
+            <h4 class="brand-issue-brand">ETAPE</h4>
+            <h3 class="brand-issue-name">FLOW BODY LOTION</h3>
+            <h2 class="brand-issue-description">BODY LOTION PROMOTION</h2>
+          </div>
+          <div class="brand-issue-thum-l">
+            <a href="javascript:void(0)"><img src="./img/brand-issue-2.jpg" alt="brand issue thumnail" /></a>
+          </div>
+          <div class="brand-issue-thum-s">
+            <ul class="brand-issue-thum-s-item-wrap">
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-2-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-2-sub2.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-2-sub3.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-2-sub4.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-2-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="brand-issue-item">
+          <div class="brand-issue-info">
+            <h4 class="brand-issue-brand">Thursday Island</h4>
+            <h3 class="brand-issue-name">22 F/W CAMPAIGN</h3>
+            <span class="brand-issue-description">T.I X MISU A BARBE</span>
+          </div>
+          <div class="brand-issue-thum-l">
+            <a href="javascript:void(0)"><img src="./img/brand-issue-3.jpg" alt="brand issue thumnail" /></a>
+          </div>
+          <div class="brand-issue-thum-s">
+            <ul class="brand-issue-thum-s-item-wrap">
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-3-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-3-sub2.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-3-sub3.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-3-sub4.jpg" alt="brand issue thumnail" />
+              </li>
+              <li class="brand-issue-thum-s-item">
+                <img src="./img/brand-issue-3-sub1.jpg" alt="brand issue thumnail" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- YOU MAY ALSO LIKE -->
+  <section class="like-wrap">
+    <div class="like-inner inner">
+      <div class="title">
+        <span>YOU MAY ALSO LIKE</span>
+      </div>
+      <div class="swiper likeSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-1.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">후디스 구스다운 푸퍼</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">459,000</p>
+                  <p class="price">321,300</p>
+                  <p class="dc-rate">30%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-2.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">COVETBLAN</p>
+                  <p class="item-name">빅카라 체크코트</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">379,000</p>
+                  <p class="price">265,300</p>
+                  <p class="dc-rate">30%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-3.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">경량 소재 롱 구스다운 JP</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">779,000</p>
+                  <p class="price">474,900</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-4.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">오버핏 롱 야상 다운</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">779,000</p>
+                  <p class="price">474,900</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-5.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">ETAPE</p>
+                  <p class="item-name">핸드크림 브레스 50ML</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">23,000</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-6.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">에어울 폴로니트</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">225,000</p>
+                  <p class="price">135,000</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-7.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">발마칸 체크 코트</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">499,000</p>
+                  <p class="price">299,400</p>
+                  <p class="dc-rate">40%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-8.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">ETAPE</p>
+                  <p class="item-name">바디케어 플로우 세트</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price"></p>
+                  <p class="price">72,000</p>
+                  <p class="dc-rate"></p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-9.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">Thursday Island</p>
+                  <p class="item-name">인조퍼 숏 자켓</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">419,000</p>
+                  <p class="price">293,300</p>
+                  <p class="dc-rate">30%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <div class="item-thumb">
+                <img src="./img/best-item-10.jpg" alt="new-item" />
+              </div>
+              <div class="item-info">
+                <div class="item-title">
+                  <p class="item-brand">T.I FOR MEN</p>
+                  <p class="item-name">에어울 폴로 스웨터</p>
+                </div>
+                <div class="item-price-info">
+                  <p class="item-price">419,000</p>
+                  <p class="price">293,300</p>
+                  <p class="dc-rate">30%</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+   <!-- BRAND -->
+   <section class="brand-wrap">
+    <div class="brand-inner inner">
+      <div class="title">
+        <span>BRAND</span>
+      </div>
+      <div class="brand-content">
+        <div class="category-area" role="tablist"></div>
+        <div class="brand-list-wrap swiper">
+          <ul class="brand-list swiper-wrapper">
+            <li class="brand-item swiper-slide">
+              <a href="#" class="brand-area">
+                <div class="thumb-box">
+                  <img src="./img/brand-1.jpg" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="brand-item swiper-slide">
+              <a href="#" class="brand-area">
+                <div class="thumb-box">
+                  <img src="./img/brand-2.jpg" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="brand-item swiper-slide">
+              <a href="#" class="brand-area">
+                <div class="thumb-box">
+                  <img src="./img/brand-3.jpg" alt="" />
+                </div>
+              </a>
+            </li>
+            <li class="brand-item swiper-slide">
+              <a href="#" class="brand-area">
+                <div class="thumb-box">
+                  <img src="./img/brand-4.jpg" alt="" />
+                </div>
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="swiper-prev btn-prev" role="button"></a>
+          <a href="#" class="swiper-next btn-next" role="button"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner inner">
+      <div class="corp-list-wrap">
+        <ul class="corp-list">
+          <li class="corp-item"><a href="#" class="link-corp">회사소개</a></li>
+          <li class="corp-item"><a href="#" class="link-corp">이용약관</a></li>
+          <li class="corp-item"><a href="#" class="link-corp">개인정보처리방침</a></li>
+          <li class="corp-item"><a href="#" class="link-corp">고객센터</a></li>
+          <li class="corp-item"><a href="#" class="link-corp">매장정보</a></li>
+          <li class="corp-item corp-item-tab"><a href="#" class="link-corp link-corp-tab">사업자정보확인</a></li>
+        </ul>
+        <div class="sns-icon-wrap">
+          <a href="#"><div class="sns-icon-facebook"></div></a>
+          <a href="#"><div class="sns-icon-insta"></div></a>
+        </div>
+      </div>
+      <div class="info">
+        <span>회사주소:서울시 송파구 동남로4길 41 지엔코빌딩ㅣ고객센터 전화:1688-2109(유료)<br>
+        고객센터 주소(반품처):경기도 광주시 오포읍 수렁개길 10 (주)지엔코 제2물류센터<br>
+        사업자 등록번호:220-81-45177ㅣ
+        관리책임자:김영수 이메일 gncostyle@gnco.co.kr<br>
+        통신판매업 신고번호:제2010-서울송파-1584호</sp>
+      </div>
+      <p class="copyright">
+       COPYRIGHT &copy; <span class="this-year"></span> GNCO.CO.,LTD.ALL RIGHTS RESERVED
+      </p>
+    </div>
+  </footer>
+
+  <div id="to-top">
+    <img src="./img/page-top.png" alt="page-top">
+  </div>
+  </div>
+
+</body>
+</html>
