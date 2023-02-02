@@ -1,29 +1,3 @@
-$(function () {
-  $(document).on('click', 'a[href="#"]', function (e) {
-    e.preventDefault();
-  });
-
-  const body = document.querySelector('body');
-  let scrollPosition = 0;
-
-  //body fixed
-  function enable() {
-    scrollPosition = window.pageYOffset;
-    body.style.overflow = 'hidden';
-    body.style.position = 'fixed';
-    body.style.top = `-${scrollPosition}px`;
-    body.style.width = '100%';
-  }
-
-  function disable() {
-    body.style.removeProperty('overflow');
-    body.style.removeProperty('position');
-    body.style.removeProperty('top');
-    body.style.removeProperty('width');
-    window.scrollTo(0, scrollPosition);
-  }
-});
-
 // 검색!
 const headerEl = document.querySelector('header')
 const searchWrapEl = headerEl.querySelector('.search-wrap')
